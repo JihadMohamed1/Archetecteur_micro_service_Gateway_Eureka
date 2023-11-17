@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="getwayserv" />
         <module name="EurekaDiscovery" />
         <module name="ClientService" />
         <module name="ProductService" />
@@ -22,6 +23,7 @@
       <module name="EurekaDiscovery" options="-parameters" />
       <module name="GatewayService" options="-parameters" />
       <module name="ProductService" options="-parameters" />
+      <module name="getwayserv" options="-parameters" />
     </option>
   </component>
 </project>
